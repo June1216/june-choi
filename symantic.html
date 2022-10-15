@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="uft-8">
-  <title>나의 첫 Symantic 페이지</title>
-  <meta name="viewport" contnet="width=device-width, initial-scale=1.0">
-  <meta name="title" content="나의 첫 Symantic 페이지">
-  <meta property="og:title" content="나의 첫 Symantic 페이지">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>나의 첫 Symantic 페이지</title>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="title" content="나의 첫 Symantic 페이지">
+    <meta property="of:title" content="나의 첫 Symantic 페이지">
+  </head>
   <body>
     <header>
       <!-- logo, nav, search -->
-      <nav id="main-menu">
+      <nav id="main menu">
         <ul>
           <li>Home</li>
           <li>About</li>
@@ -18,15 +18,15 @@
       </nav>
     </header>
     <main>
-      <section></section>
+      <section>
     <h1>기사의 메인 타이틀</h1>
     <p>Paragraph태그로 기사의 본문을 쓸 수 있습니다.</p>
     </section>
-<section>
-  <h2>어른폰 가격 변동 추이</h2>
-  <p>어른폰은 2008년 출시 이후 꾸준히 가격이 상승해왔다....</p>
-</section>
-      <section class="faq">
+    <section>
+      <h2>어른폰 가격 변동 추이</h2>
+      <p>어른폰은 2008년 출시 이후 꾸준히 가격이 상승해왔다...</p>
+    </section>
+      <section class="FAQ">
         <h2>자주 묻는 질문</h2>
         <details>
           <summary>Q. 어른폰은 언제 사야 하나요?</summary>
@@ -41,7 +41,7 @@
         <caption>표1. 중간고사 성적표</caption>
         <thead>
           <tr>
-          <th>번호</th>
+            <th>번호</th>
             <th>점수</th>
           </tr>
         </thead>
@@ -62,31 +62,45 @@
           </tr>
         </tfoot>
       </table>
-    </main>
+      </main>
+    <article>
+      <p>
+        <storng>strong</storng>과
+        <b>b</b>의 차이가 느껴지십니까?
+        혹은,
+        <em>em</em>과
+        <i>i</i>의 차이가 느껴지십니까?
+      </p>
+    </article>
     <article>
       <h2>당신의 의견을 제출하세요</h2>
-      <form action="#" method="POST">
-        <input type="text" id="opinion"name="opinion">
+      <form action="#" method="post">
+        <label for="u-name">유저네임</label>
+        <input type="text" id="uname" name="uname">
+        <label for="u-pw">패스워드</label>
+          <input type="password" id="u-pw" name="u-pw">
+        <span>의견</span>
+        <input type="text" id="opinion" name="opinion">
+          <input type="submit">
       </form>
     </article>
-      <article id="featured-posts">
-        <article class="featured-post">
-          <h2>은하 13 출시임박</h2>
-        </article>
-        <article class="featured-post">
-          <h2>어른폰 14 싸게 사는법</h2>
-        </article>
+    <article id="featured-posts">
+      <article class="featured-post">
+        <h2>은하 13 출시임박</h2>
+    </article>
+      <article class="featured-post">
+        <h2>어른폰 14 싸게 사는 법</h2>
       </article>
+    </article>
       <aside>
-        <h2>Featured Comments</h2>
+        <h2>Comments</h2>
         <ul>
           <li>우와 정말 정보가 많네요</li>
-          <li>후속 기사가 기대됩니다</li>
+          <li>후속 기사가 기대됩니다.</li>
         </ul>
       </aside>
       <footer>
-        <span>Copyrights 2020-2022 by kingwangzzang ALL RIGHTS RESERVED.</span>
+        <span>Copyrights 2020-2022 by heesu ALL RIGHTS RESERVED.</span>
       </footer>
-      
   </body>
 </html>
