@@ -1,13 +1,19 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-font-family: 'NanumSquare', san-serif;
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 { font-family: 'NanumSquare', sans-serif ;
+    color: red;
+    letter-spacing: -0.05em;
+ }    /* ; 붙이는건 먼저 우선 적용하라는 거 */
+p.subtitle { font-family: 'Noto Sans KR', sans-serif;
 }
 
-p{
-font-family: 'Noto Sans KR', sans-serif;
-
+.main-text {
+ font-weight: 200;
+ font-size: 20 px;
+ text-align: justify;
+ letter-spacing: 0.05em;
+ word-spacing: 1.0em;
 }
