@@ -1,0 +1,42 @@
+console.log('Hello, world!');
+vendors_sentry.js:44 Hello, world!
+undefined
+console.log('안녕. 세계!');
+vendors_sentry.js:44 안녕. 세계!
+undefined
+alert('Hello, world!');
+undefined
+alert('당신의 컴퓨터는 감염되었습니다. 메롱');
+undefined
+document.write('이제 이 페이지는 제겁니다. 메롱');
+undefined
+3+1
+4
+1-4
+-3
+3.14*9
+28.26
+2/3
+0.6666666666666666
+7%5
+2
+7%3
+1
+7>5
+true
+7=7
+VM1592:1 Uncaught SyntaxError: Invalid left-hand side in assignment
+7==7
+true
+7===7
+true
+7=='7'
+true
+7==='7'
+false
+6!=56
+true
+6!=='6'
+true
+6>=6
+true
